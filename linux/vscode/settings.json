@@ -1,0 +1,67 @@
+{
+    "editor.fontFamily": "UbuntuMono Nerd Font Mono",
+    "editor.fontSize": 16,
+    "editor.fontWeight": "bold",
+    "editor.fontLigatures": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.linkedEditing": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll": true
+      },
+      "editor.rulers": [80],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": false
+    },
+    "dart.openDevTools": "flutter",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.formatOnSave": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "codeium.enableConfig": {
+      "*": true,
+      "markdown": true,
+      "plaintext": true,
+      "gitignore": true,
+      "bat": true,
+      "properties": true
+    },
+    "terminal.integrated.fontSize": 20,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorStyle": "line-thin",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.letterSpacing": 0.4,
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.sideBar.location": "right",
+    "files.associations": {
+      "config": "shellscript"
+    },
+    "workbench.colorTheme": "Nord Deep",
+    "editor.renderWhitespace": "all",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always"
+  }
+  
