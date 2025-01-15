@@ -12,5 +12,6 @@
 - _move kitty.conf to ~/.config/kitty_
 - _move config.fish to ~/.config/fish_
 - _move config-i3status to ~/.config/i3status_
+- _move config.jsonc to ~/.config/fastfetch_
 
 ## Thanks for using this repo!
