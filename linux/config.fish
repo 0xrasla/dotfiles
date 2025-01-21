@@ -12,6 +12,7 @@ alias ga="git add"
 
 set -g JAVA_HOME /opt/jdk-19.0.2/
 set -x ANDROID_HOME $HOME/Android/Sdk
+set -Ux PATH $HOME/.local/bin $PATH
 
 set -gx BUN_INSTALL $HOME/.bun
 set -gx PATH $BUN_INSTALL/bin $PATH
