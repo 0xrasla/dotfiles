@@ -17,6 +17,13 @@ set -Ux PATH $HOME/.local/bin $PATH
 set -gx BUN_INSTALL $HOME/.bun
 set -gx PATH $BUN_INSTALL/bin $PATH
 
+set -x PYENV_ROOT $HOME/.pyenv
+set -x PATH $PYENV_ROOT/bin $PATH
+
+status --is-interactive; and test -x (which pyenv) && pyenv init - | source
+status --is-interactive; and test -x (which pyenv) && pyenv virtualenv-init - | source
+
+
 set -x PATH $PATH $ANDROID_HOME/tools $ANDROID_HOME/platform-tools $JAVA_HOME/bin
 
 c
